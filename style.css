@@ -135,6 +135,7 @@ footer{
 .footer-box img{
     width: 35px;
     height: 35px;
+    object-fit: contain;
 }
 
 .footer-txt{
@@ -299,6 +300,7 @@ footer{
         top: 0;
         inset: 23rem 0 0 -1rem;
     }
+
     .main-01{
         order: 10;
     }
