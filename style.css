@@ -53,15 +53,15 @@ header{
 
 .h-ul a{
     text-decoration: none;
-    color: black;
+    color: #707070;
     font-size: 1.2rem;
     font-weight: 200;
 }
 
 .h-ul a:hover{  
+    color: black;
     text-shadow: 1px 0 black;
     font-weight: 800;
-    font-size: 1.2rem;
 }
 
 .top-box{
