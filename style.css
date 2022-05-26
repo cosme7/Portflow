@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,8 +7,6 @@
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
 
 header{
     background-color: white;
@@ -21,7 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    max-width: 1450px;
+    max-width: 1500px;
     padding: 2rem 0;
     margin: 0 auto;
 }
@@ -48,12 +47,16 @@ header{
 .h-ul{
     display: flex;
     justify-content: end;
-    gap: 2.5rem;
+}
+
+.h-ul li{
+    text-align: center;
+    width: 100px;
 }
 
 .h-ul a{
     text-decoration: none;
-    color: #707070;
+    color: black;
     font-size: 1.2rem;
     font-weight: 200;
 }
@@ -140,7 +143,7 @@ footer{
 
 .footer-txt{
     display: flex;
-    width: 45%;
+    width: 50%;
     margin-left: 4rem;
 }
 
