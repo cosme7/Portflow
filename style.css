@@ -205,7 +205,7 @@ footer{
     }
 }
 
-@media(max-width:920px){
+@media(max-width:975px){
     .h-container{
         padding: 0;
         justify-content: start;
