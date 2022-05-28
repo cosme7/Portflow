@@ -42,6 +42,7 @@ header{
     padding: 0.2rem 3.5rem;
     font-size: 1.2rem;
     display: none;
+    border: none;
 }
 
 .h-ul{
@@ -75,12 +76,12 @@ header{
 }
 
 .top-div{
-    max-width: 1440px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 .top-div h2{
-    font-size: 4.9rem;
+    font-size: 4.6rem;
     font-weight: bolder;
     color: white;
     text-shadow: 1px 0 black;
@@ -158,6 +159,10 @@ footer{
 
 .f-txt p{
     font-size: 0.9rem;
+}
+
+.btn-f a{
+    text-decoration: none;
 }
 
 .btn-footer{
@@ -307,7 +312,7 @@ footer{
 @media(max-width:615px){
     .top-div{
         top: 0;
-        inset: 23rem 0 0 -1rem;
+        inset: 23rem 0 0 -2rem;
     }
 
     .h-container div{
